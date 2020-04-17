@@ -87,7 +87,12 @@ border-top: 1px solid #dfedf9;
 .bottom-line-text {
   padding-left: 0;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22316b;
 }
 .bottom-line-text-item {
-  margin-bottom: 15px;
+  padding: 15px;
 }
+
