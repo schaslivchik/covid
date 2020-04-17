@@ -77,15 +77,20 @@ border-top: 1px solid #dfedf9;
 .block-item-text-covid {
   margin-bottom: 30px;
 }
-.bottom-line-text {
-  background:#1ca8e0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
+
 .row-flex {
   align-items: center;
 }
-.btn-line {
-  color: #ffffff;
+.row-wrap {
+  margin: 60px 0 0;
+}
+.bottom-line-text {
+  padding-left: 20px;
+  list-style-type: none;
+}
+.bottom-line-text-item {
+  margin-bottom: 15px;
+}
+.bottom-line-text {
+  margin-top: 34px;
 }
