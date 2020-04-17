@@ -88,6 +88,7 @@ border-top: 1px solid #dfedf9;
   padding-left: 0;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   color: #22316b;
@@ -95,4 +96,32 @@ border-top: 1px solid #dfedf9;
 .bottom-line-text-item {
   padding: 15px;
 }
+.img-responsive {
+  max-width: 100%;
+}
 
+@media all and (max-width: 991px) {
+  .row-wrap {
+    margin: auto;
+}
+.wrap-inform-covid {
+  padding: 40px 20px;
+}
+}
+@media all and (max-width: 767px) {
+  .table-covid {
+    font-size: 12px;
+  }
+  .table td, .table th {
+    padding: 5px;
+  }
+  .bottom-line-text-item {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.icons-block-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+}
