@@ -99,10 +99,28 @@ border-top: 1px solid #dfedf9;
 .img-responsive {
   max-width: 100%;
 }
-
+.inform-block {
+  text-align: center;
+}
+.inform-text-block {
+  font-size: 24px;
+  margin: 30px 0 30px;
+}
+.inform-texl-link {
+  font-size: 24px;
+}
+.img-block-xs {
+  display: none;
+}
 @media all and (max-width: 991px) {
   .row-wrap {
     margin: auto;
+}
+.img-block-md {
+  display: none;
+}
+.img-block-xs {
+  display: block;
 }
 .wrap-inform-covid {
   padding: 40px 20px;
