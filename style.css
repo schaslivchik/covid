@@ -133,10 +133,10 @@ border-top: 1px solid #dfedf9;
   margin: 0;
 }
 .title-text {
-  font-size: 48px;
+  font-size: 32px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: -10px;
+  margin-bottom: 0;
 }
 .secondary-text-title {
   font-size: 24px;
