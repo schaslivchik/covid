@@ -6,6 +6,7 @@ a {
 }
 .wrap-inform-covid {
   padding: 60px 20px;
+  font-size: var(--size-font);
 }
 .inform-block-logo {
   margin-bottom: 30px;
@@ -148,7 +149,119 @@ border-top: 1px solid #dfedf9;
 .email-link {
   margin-bottom: 20px;
 }
+/*covid block*/
+.title-covid-test {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #22316b;
+  margin-top: 30px;
+}
+.inform-block-covid-text {
+  font-size: 21px;
+  line-height: 32px;
+}
+.ig-block {
+  margin: 30px 0;
+}
+.ig-block-item {
+  display: flex;
+}
+.ig-block-item p {
+  margin: 0 40px 0 0;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+.text-10min {
+  background-color: #ffce25;
+  font-size: 28px;
+  max-width: 420px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.block-covid-wrap {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.wrap-results {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.wrap-result-item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-recommended {
+  font-size: 14px;
+  text-transform: none;
+}
+/*covid block end*/
+@media all and (max-width: 1199px) {
+  /*covid block*/
+  .inform-block-covid-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .ig-block-item p {
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+.title-covid-test {
+  font-size: 42px;
+}
+/*end covid block*/
+}
 @media all and (max-width: 991px) {
+/*covid block*/
+  .title-covid-test {
+  text-align: center;
+}
+  .block-covid-wrap {
+  flex-wrap: wrap;
+}
+.inform-block-covid-text br {
+  display: none;
+}
+.title-covid-test {
+  margin-top: 0;
+}
+.ig-block-item p {
+  margin: 0 40px 0 0;
+  font-size: 21px;
+}
+.inform-block-covid {
+  width: 100%;
+  text-align: center;
+}
+.ig-block-item p {
+  margin: 5px 10px;
+}
+.ig-block-item {
+  justify-content: center;
+}
+.text-10min {
+  margin: 0 auto 20px;
+}
+.img-block-covid {
+  text-align: center;
+  width: 100%;
+}
+.wrap-results {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.wrap-result-item {
+  margin: 10px;
+}
+/*end covid block*/
   .row-wrap {
     margin: auto;
 }
@@ -166,6 +279,25 @@ border-top: 1px solid #dfedf9;
 }
 }
 @media all and (max-width: 767px) {
+  /*covid block*/
+  .wrap-result-item {
+    margin: 10px 5px 40px;
+}
+.title-covid-test {
+  font-size: 26px;
+}
+.ig-block-item {
+  flex-wrap: wrap;
+}
+.ig-block-item p {
+  width: 100%;
+}
+.text-10min {
+  max-width: inherit;
+  margin: 0 auto 20px;
+  font-size: 18px;
+}
+/*end covid block*/
   .table-covid {
     font-size: 12px;
   }
